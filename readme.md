@@ -1,34 +1,41 @@
-# tape-catch
-tape-catch is a wrapper around [tape](https://github.com/substack/tape) that reports uncaught errors in your tests. It re-adds functionality that was removed from tape in version 3.0.0.
+# tapeline
 
-[![Build status](https://travis-ci.org/michaelrhodes/tape-catch.png?branch=master)](https://travis-ci.org/michaelrhodes/tape-catch)
+Growing the idea of (the awesome) [tape](https://github.com/substack/tape) via [tape-catch](https://github.com/michaelrhodes/tape-catch) aiming for a "batteries included" alternative to mocha.
+
+If you, like me, feel repelled by the idea of walking away from mocha for testing have a look at the blogpost "[Why I use Tape Instead of Mocha & So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)"
+
+
+
+
+
+[![Build status](https://travis-ci.org/mathiasrw/tapeline.png?branch=master)](https://travis-ci.org/mathiasrw/tapeline)
 
 ## install
-```sh
-$ npm install tape-catch
-```
-**note: tape is not installed alongside tape-catch.**
 
-tape-catch works with any and all versions of tape, so it leaves this choice to the user.
+```sh
+$ npm install tapeline --save-dev
+```
+
 
 ## example
 ```js
-var test = require('tape-catch')
+var test = require('tapeline')
 
-test('cause an exception', function (assert) {
-  asdf
+test('cause an exception', function (t) {
+  t.ok(myUnknownVar === 123, 'this will throw exception')
+  t.end();
 })
 
-test('still run this test', function (assert) {
-  assert.equal(1 + 1, 2, 'this still ran')
-  assert.end() 
+test('still run this test', function (t) {
+  t.ok(1 + 1 === 2, 'this still ran')
+  t.end() 
 })
 ```
 
 ```
 TAP version 13
 # cause an exception
-not ok 1 ReferenceError: asdf is not defined
+not ok 1 ReferenceError: myUnknownVar is not defined
   ---
     operator: error
     expected: undefined
