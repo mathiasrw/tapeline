@@ -1,7 +1,7 @@
 {
-  "name": "tape-catch",
-  "version": "1.0.3",
-  "description": "a wrapper around tape that catches and reports exceptions",
+  "name": "tapeline",
+  "version": "0.0.1",
+  "description": "Testing library based on tape with support for throwing exception in tests and built in options for output formatting.",
   "main": "index.js",
   "scripts": {
     "copy-tape-tests": "bin/copy-tape-tests.js",
@@ -9,20 +9,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/michaelrhodes/tape-catch.git"
+    "url": "https://github.com/mathiasrw/tapeline.git"
   },
   "keywords": [
     "tape",
     "exception",
-    "catch"
+    "catch",
+    "test",
+    "testframework",
+    "testbench",
+    "TAP"
   ],
-  "author": "Michael Rhodes",
+  "author": "M. Rangel Wulff <m@rawu.dk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaelrhodes/tape-catch/issues"
+    "url": "https://github.com/mathiasrw/tapeline/issues"
   },
-  "homepage": "https://github.com/michaelrhodes/tape-catch",
-  "peerDependencies": {
+  "homepage": "https://github.com/mathiasrw/tapeline",
+  "dependencies": {
     "tape": "*"
   },
   "devDependencies": {
