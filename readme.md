@@ -1,8 +1,10 @@
-# tapeline
+# tapetown
+
+_Where all the TAP related testing is hanging out_
 
 Growing the idea of (the awesome) [tape](https://github.com/substack/tape) via [tape-catch](https://github.com/michaelrhodes/tape-catch) aiming for a "batteries included" alternative to mocha.
 
-If you, like me, feel repelled by the idea of walking away from mocha for testing have a look at the blogpost "[Why I use Tape Instead of Mocha & So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)"
+If you, like I did, feel repelled by the idea of walking away from mocha for testing then have a look at the blogpost "[Why I use Tape Instead of Mocha & So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)"
 
 
 
@@ -13,13 +15,13 @@ If you, like me, feel repelled by the idea of walking away from mocha for testin
 ## install
 
 ```sh
-$ npm install tapeline --save-dev
+$ npm install tapetown --save-dev
 ```
 
 
 ## example
 ```js
-var test = require('tapeline')
+var test = require('tapetown')
 
 test('cause an exception', function (t) {
   t.ok(myUnknownVar === 123, 'this will throw exception')
