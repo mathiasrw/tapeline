@@ -1,11 +1,10 @@
 {
-  "name": "tapeline",
+  "name": "tapetown",
   "version": "0.0.1",
   "description": "Testing library based on tape with support for throwing exception in tests and built in options for output formatting.",
   "main": "index.js",
   "scripts": {
-    "copy-tape-tests": "bin/copy-tape-tests.js",
-    "test": "npm run copy-tape-tests && tap test/*.js"
+    "test": "tap test/*.js"
   },
   "repository": {
     "type": "git",
