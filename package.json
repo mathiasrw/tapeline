@@ -4,7 +4,7 @@
   "description": "Testing library based on tape with support for throwing exception in tests and built in options for output formatting.",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
