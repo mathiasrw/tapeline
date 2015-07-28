@@ -10,7 +10,7 @@ If you, like I did, feel repelled by the idea of walking away from mocha for tes
 
 
 
-[![Build status](https://travis-ci.org/mathiasrw/tapeline.png?branch=master)](https://travis-ci.org/mathiasrw/tapeline)
+[![Build status](https://travis-ci.org/mathiasrw/tapeltown.png?branch=master)](https://travis-ci.org/mathiasrw/tapetown)
 
 ## install
 
