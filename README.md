@@ -1,16 +1,12 @@
-# tapetown
+# tapetown [![Build Status](https://travis-ci.org/mathiasrw/tapetown.svg?branch=master)](https://travis-ci.org/mathiasrw/tapetown)
 
 _Where all the TAP related testing is hanging out_
 
 Growing the idea of (the awesome) [tape](https://github.com/substack/tape) via [tape-catch](https://github.com/michaelrhodes/tape-catch) aiming for a "batteries included" alternative to mocha.
-
 If you, like I did, feel repelled by the idea of walking away from mocha for testing then have a look at the blogpost "[Why I use Tape Instead of Mocha & So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)"
 
 
 
-
-
-[![Build status](https://travis-ci.org/mathiasrw/tapeltown.png?branch=master)](https://travis-ci.org/mathiasrw/tapetown)
 
 ## install
 
