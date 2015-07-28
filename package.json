@@ -23,9 +23,9 @@
   "author": "M. Rangel Wulff <m@rawu.dk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathiasrw/tapeline/issues"
+    "url": "https://github.com/mathiasrw/tapetown/issues"
   },
-  "homepage": "https://github.com/mathiasrw/tapeline",
+  "homepage": "https://github.com/mathiasrw/tapetown",
   "dependencies": {
     "tape": "*"
   },
@@ -36,6 +36,6 @@
     "mkdirp": "~0.5.0",
     "run-series": "~1.0.2",
     "tap": "~0.5.0",
-    "tape": "git://github.com/michaelrhodes/tape#no-res-at"
+    "tape": "^4.0.1"
   }
 }
